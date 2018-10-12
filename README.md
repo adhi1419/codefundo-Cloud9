@@ -6,7 +6,7 @@ This project’s basic idea is based on a mobile application which is to be inst
 ## Introduction
 The app will be functional for both online and offline (limited) usage. In offline mode the users will connect to one of the deployed devices, such as -
 - Microcell
-- Local Wi-Fi (In case microcell hasn’t reached)
+- Local Wi-Fi
 - 4G LTE (Device-to-device communication is currently under research)
 
 Microcells will be deployed using drones in areas where cellular network is not available, when connected to a local network every node will act as a router and the information about the local nodes will be routed and updated to every node on the network. The users on the local network can send SOS alerts, communicate and coordinate with each other to reach a safe place. The users have the ability to mark places as safe or unsafe. The collected information will be used to generate a map which will display -
@@ -15,9 +15,9 @@ Microcells will be deployed using drones in areas where cellular network is not 
 - Location of other people/nodes
 - Unreachable/damaged places
 
-Other than the Map UI, users will be able to enter supply requirements like food, medicine and electricity (portable, such as power banks & batteries).
+Other than the Map UI, users will be able to enter supply requirements like food, medicine and portable power.
 
-Once the the network grows large, the network will be divided into smaller groups based on number of people and geographical distance. For a local group people will have all the functionalities of offline mode with their local virtual network among themselves and the information for the whole group/local network would be sent to base server. The base server will store information about all networks and all nodes.
+Once the the network grows large, the network will be divided into smaller groups based on number of people and geographical distance. A base server will store information about all networks and nodes.
 
 ## Plan of Action
 ### Before the disaster
@@ -32,5 +32,3 @@ After establishing reasonable connectivity with the help of microcells, other lo
 - Sending supplies to physically disconnected areas using drones
 - Identifying high population areas and sending manpower
 - Communicating and sending news/updates to a particular network
-
-An area with no network coverage will have a local network of its own and it will be easier to cater to a particular local group rather than catering every person. Every node of network is treated as a group and every person's details will be stored on the server. After a particular time when the traffic is less the app will also be able to accomodate inter-network personal messages to connect to family members and move to a safer place. At all points of time the app will show people in the all the networks to search for his/her family members.
