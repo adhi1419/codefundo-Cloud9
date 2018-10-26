@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cloud9</string>
+    <string name="change_city">Change city</string>
+
+    <!-- Put your own APP ID here -->
+    <string name="open_weather_maps_app_id">5b58bbc16f871e11af542d5a9a35cb63</string>
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+    <string name="place_not_found">Sorry, no weather data found.</string>
+    <string name="title_activity_disaster_guidelines">DisasterGuidelinesActivity</string>
+
+    <string name="menu_weather">Weather</string>
+    <string name="menu_guidelines">Disaster Guidelines</string>
+    <string name="menu_safety">Safe Map</string>
+    <string name="menu_chat">Chat Room</string>
+
+    <string name="google_maps_key">AIzaSyCcxb64VnwErdDBNog9QEXhBT_rrllsp4w</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
